@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent"
+  android:layout_height="fill_parent"> 
+ 
+    <ImageView
+        android:id="@+id/imgv_menuBG"
+         android:src="@drawable/lettuce"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_centerHorizontal="true"
+       android:layout_centerVertical="true"
+       android:layout_margin="10dp"
+       android:gravity="left"
+       android:orientation="vertical" >
+
+       <TextView
+           android:id="@+id/txv_title"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left"
+           android:text="@string/str_startmenu_title"
+           android:textSize="45dp" />
+
+       <TextView
+           android:id="@+id/txv_start"
+           android:layout_width="104dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="right"
+           android:text="@string/str_startmenu_start"
+           android:textSize="20dp" />
+
+       <TextView
+           android:id="@+id/txv_exit"
+           android:layout_width="112dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="right"
+           android:text="@string/str_startmenu_exit"
+           android:textSize="20dp" />
+
+   </LinearLayout>
+
+</RelativeLayout>

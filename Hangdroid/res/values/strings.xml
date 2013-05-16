@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Hangdroid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_hangdroidn">HangdroidnActivity</string>
+    <string name="str_startmenu_title">HangDroid</string>
+    <string name="str_startmenu_start">Start</string>
+    <string name="str_startmenu_exit">Exit</string>
+
+</resources>
